@@ -39,10 +39,15 @@
   
   .dropdown-item {
     list-style: none;
-    display: block;
-    column-count: 2;
   }
 
+  @media only screen and (min-width: 768px) {
+    .dropdown-item {
+      display: block;
+      column-count: 2;
+    }
+  }
+  
   .dropdown-item:hover {
     background-color: lightgray;
   }
