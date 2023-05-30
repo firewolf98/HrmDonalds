@@ -1,3 +1,8 @@
+*::selection{
+  color:white;
+  background: #ffbc0d;
+}
+
   .dropbtn {
     border: none;
     background-color: transparent;
@@ -130,4 +135,119 @@
     background-image: url('../assets/carouselSocial/bg_potatos_left.png'), url('../assets/carouselSocial/bg_potatos_right.png');
     background-position: left center, right center;
     background-repeat: no-repeat;
+  }
+
+  @keyframes socialAnimation {
+    from {
+      opacity: 0.6;
+    }
+    to {
+      opacity: 1;
+    }
+  }
+
+  .item img {
+    border-radius: 10px;
+    opacity: 0.6;
+  }
+
+  .item img:hover {
+    opacity: 1;
+    animation-name: socialAnimation;
+    animation-duration: 0.5s;
+  }
+
+  .footer-social {
+    padding: 2rem;
+  }
+
+  .fa-brands {
+    color: black;
+    background-color: #faf9f7; 
+    padding: 10px;
+    border-radius: 100%;
+    font-size: 20px;
+  }
+
+  .footer-social-links p {
+    font-size: 20px;
+  }
+
+  .footer-app {
+    background-color: #ffbc0d;
+  }
+
+  .btn-white {
+    background-color:white;
+    color:black;
+    font-size:18px;
+    font-weight: bold;
+    border:2px solid white;
+    border-radius: 5px;
+  }
+
+  .btn-white:hover {
+    background-color: transparent;
+    color:black;
+  }
+
+  .block-head h3 {
+    font-weight: bold;
+  }
+
+  .footer-followus {
+    background-color: #faf9f7;
+  }
+
+  .footer-followus span{
+    font-weight: bold;
+    font-size: 30px;
+  }
+
+  .footer-followus i{
+    background-color: #ffbc0d;
+    border:2px solid #ffbc0d;
+  }
+
+  .footer-followus i:hover {
+    background-color: transparent;
+  }
+
+  .navbar__item_avviso-antifrode {
+    background-color: green;
+    border-radius: 5px;
+    padding: 2px 5px;
+  }
+
+  .navbar__item_avviso-antifrode:hover {
+    background-color: #ffbc0d;
+  }
+
+  .navbar__link_avviso-antifrode {
+    color:white !important;
+    font-weight: bold;
+    text-decoration: none;
+  }
+
+  .navbar__link_avviso-antifrode:hover {
+    color:white;
+  }
+
+  .navbar__link--primary {
+    color:black;
+  }
+
+  .navbar__link--primary:hover {
+    color:#ffbc0d;
+    text-decoration: none;
+  }
+
+  .copyright-legal {
+    font-size: 12px;
+    padding:20px;
+    color: gray;
+  }
+
+  .header__navbar-nav {
+    font-size: 12px;
   }
